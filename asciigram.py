@@ -5,10 +5,10 @@ def main():
 
     img = filters.load_img(filename)
 
+    newImage = filters.asci(img)
+    # filters.show_img(newImage)
 
-    newImage = filters.greyscale(img)
-    filters.show_img(newImage)
-    filters.save_img(newImage, "newBanana.jpeg")
+
 
 
 
